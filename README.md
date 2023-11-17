@@ -1,4 +1,4 @@
-# sv06plus
+# sv06plus Orca Slicer Profile for Klipper/Mainsail
 
 **Best Orca Slicer Configuration for Sovol SV06 Plus**
 
@@ -27,7 +27,7 @@ In the "Others" section, the sole adjustment required is modifying the **Brim ty
 --------------- **PRINTER SETTINGS IN ORCA SLICER** ---------------
 
 > Basic Information
-<img src="./speed-2.png">
+<img src="./Printer Basic Info Tab.png">
 On this Screen only thing you need to update is
  Printable area  click Set and set your printer size mine is 300x300 
 in Advanceed 
@@ -35,14 +35,17 @@ in Advanceed
 
 Then go to 
 > Machine G-code Settings
-<img src="./speed-2.png">
+<img src="./Machine G-code.png">
 
 > Machine start G-code
-M104 S0 ; Stops SuperSlicer from sending temp waits separately
+
+```M104 S0 ; Stops SuperSlicer from sending temp waits separately
 
 M140 S0
 
-print_start EXTRUDER=[first_layer_temperature] BED=[first_layer_bed_temperature]
+print_start EXTRUDER=[first_layer_temperature] BED=[first_layer_bed_temperature]```
 
 > Machine end G-code
-PRINT_END
+```PRINT_END```
+
+

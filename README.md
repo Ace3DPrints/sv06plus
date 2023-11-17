@@ -39,13 +39,11 @@ Then go to
 
 > Machine start G-code
 
-```M104 S0 ; Stops SuperSlicer from sending temp waits separately
-
-M140 S0
-
-print_start EXTRUDER=[first_layer_temperature] BED=[first_layer_bed_temperature]```
+```M104 S0 ; Stops SuperSlicer from sending temp waits separately```
+```M140 S0```
+```print_start EXTRUDER=[first_layer_temperature] BED=[first_layer_bed_temperature]```
 
 > Machine end G-code
-```PRINT_END```
 
+```PRINT_END```
 

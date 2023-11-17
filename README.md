@@ -7,7 +7,7 @@ If your in this page is because you could not find any good SOVOL SV06 Profile t
 
 Orca Profile Settings
 
-- Strenght Tab Recommandation
+> **Strength Recommendation**
 
 <img src="./strength.png">
 

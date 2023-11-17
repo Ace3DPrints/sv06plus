@@ -4,8 +4,8 @@
 
 If you've landed on this page, it's likely because you've struggled to locate a reliable SOVOL SV06 profile compatible with Orca Slicer for your Klipper/Mainsail setup. If that's the case, you're in the right place – please continue reading below!
 
-
-Orca Profile Settings
+[!IMPORTANT]
+**Orca Profile Settings**
 
 > **Strength Recommendation**
 
@@ -23,3 +23,26 @@ Regarding the Support tab, it's typically set up on a per-model basis. If you're
 >  **Others Recommendation**
 
 In the "Others" section, the sole adjustment required is modifying the **Brim type**. By default, it is configured to **Auto**, but if the model possesses a substantial base, consider switching it to **No-Brim**. This prevents any potential mess around the model.
+
+--------------- **PRINTER SETTINGS IN ORCA SLICER** ---------------
+
+> Basic Information
+<img src="./speed-2.png">
+On this Screen only thing you need to update is
+ Printable area  click Set and set your printer size mine is 300x300 
+in Advanceed 
+   G-code flavor select Klipper
+
+Then go to 
+> Machine G-code Settings
+<img src="./speed-2.png">
+
+> Machine start G-code
+M104 S0 ; Stops SuperSlicer from sending temp waits separately
+
+M140 S0
+
+print_start EXTRUDER=[first_layer_temperature] BED=[first_layer_bed_temperature]
+
+> Machine end G-code
+PRINT_END

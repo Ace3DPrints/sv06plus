@@ -17,7 +17,9 @@ Orca Profile Settings
 <img src="./speed-2.png">
 
 > **Support Recommendation**
+
 Regarding the Support tab, it's typically set up on a per-model basis. If you're wondering whether to add support to a particular model, it's advisable to refer to the recommendations provided by the designer of that specific model. Make adjustments according to their suggested settings.
 
 >  **Others Recommendation**
-In the "Others" section, the sole adjustment required is modifying the >Brim type. By default, it is configured to **Auto**, but if the model possesses a substantial base, consider switching it to **No-Brim**. This prevents any potential mess around the model.
+
+In the "Others" section, the sole adjustment required is modifying the **Brim type**. By default, it is configured to **Auto**, but if the model possesses a substantial base, consider switching it to **No-Brim**. This prevents any potential mess around the model.

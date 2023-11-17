@@ -9,5 +9,5 @@ Orca Profile Settings
 
 - Strenght Tab Recommandation
 
-<img src="./strength">
+<img src="./strength.png">
 

@@ -5,11 +5,10 @@
 If you've landed on this page, it's likely because you've struggled to locate a reliable SOVOL SV06 profile compatible with Orca Slicer for your Klipper/Mainsail setup. If that's the case, you're in the right place – please continue reading below!
 
 If you don't have already Orca Slicer you can download from:
-
+https://github.com/SoftFever/OrcaSlicer/releases
+Once you Install follow the steps below!
 
 **Orca Profile Settings**
-https://github.com/SoftFever/OrcaSlicer/releases
-Once you Download and Install follow the steps below!
 
 > **Strength Recommendation**
 
@@ -41,12 +40,13 @@ in Advanceed
 <img src="./Machine G-code.png">
 
 > Machine start G-code
+```
+M104 S0 ; Stops SuperSlicer from sending temp waits separately
 
-```M104 S0 ; Stops SuperSlicer from sending temp waits separately```
+M140 S0
 
-```M140 S0```
-
-```print_start EXTRUDER=[first_layer_temperature] BED=[first_layer_bed_temperature]```
+print_start EXTRUDER=[first_layer_temperature] BED=[first_layer_bed_temperature]
+```
 
 > Machine end G-code
 
@@ -59,5 +59,33 @@ This Secion is Extremly Important this will save you from your nozzile hitting y
 > Motion ability Settings
 This Secion is Extremly Important will help you with Speed, Acceleration & Jerk limitation.
 <img src="./Motion-ability.png">
+
+
+>** MAINSAIL PRINTER.CFG Settings**
+
+in printer.cfg file I will include my current file how ever make sure you back up yours if you want to copy and use my file.
+
+Only thing you going to need to update is the follow:
+```
+[printer]
+kinematics: cartesian
+max_velocity: 300
+max_accel: 4000
+max_z_velocity: 10
+max_z_accel: 45
+square_corner_velocity: 8
+```
+
+If you have any suggestions, please don't hesitate to reach out. Additionally, if you would like to contribute more content to this page, feel free to do so!
+
+That is all folks
+** ENOY!!! **
+
+
+
+
+
+
+
 
 

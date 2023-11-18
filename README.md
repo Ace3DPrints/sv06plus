@@ -33,7 +33,6 @@ On this Screen only thing you need to update is
 in Advanceed 
    G-code flavor select Klipper
 
-Then go to 
 > Machine G-code Settings
 <img src="./Machine G-code.png">
 
@@ -48,4 +47,15 @@ Then go to
 > Machine end G-code
 
 ```PRINT_END```
+
+> Extruder Settings
+This Secion is Extremly Important this will save you from your nozzile hitting your model and braking and causing fail prints.
+<img src="./Machine G-code.png">
+
+> Motion ability Settings
+This Secion is Extremly Important will help you with Speed, Acceleration & Jerk limitation.
+<img src="./Machine G-code.png">
+
+
+
 

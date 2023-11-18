@@ -4,9 +4,12 @@
 
 If you've landed on this page, it's likely because you've struggled to locate a reliable SOVOL SV06 profile compatible with Orca Slicer for your Klipper/Mainsail setup. If that's the case, you're in the right place – please continue reading below!
 
-[!IMPORTANT]
+If you don't have already Orca Slicer you can download from:
+
 
 **Orca Profile Settings**
+https://github.com/SoftFever/OrcaSlicer/releases
+Once you Download and Install follow the steps below!
 
 > **Strength Recommendation**
 

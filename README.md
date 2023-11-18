@@ -5,6 +5,7 @@
 If you've landed on this page, it's likely because you've struggled to locate a reliable SOVOL SV06 profile compatible with Orca Slicer for your Klipper/Mainsail setup. If that's the case, you're in the right place – please continue reading below!
 
 [!IMPORTANT]
+
 **Orca Profile Settings**
 
 > **Strength Recommendation**
@@ -50,12 +51,10 @@ in Advanceed
 
 > Extruder Settings
 This Secion is Extremly Important this will save you from your nozzile hitting your model and braking and causing fail prints.
-<img src="./Machine G-code.png">
+<img src="./Extruder.png">
 
 > Motion ability Settings
 This Secion is Extremly Important will help you with Speed, Acceleration & Jerk limitation.
-<img src="./Machine G-code.png">
-
-
+<img src="./Motion-ability.png">
 
 
